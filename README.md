@@ -97,7 +97,7 @@ Innovación destacada	Interacción mental directa + adaptabilidad emocional	Esta
 
 
 RunaOS comparacion con mac os es un sistema conceptual enfocado en la interacción cerebro-computadora (BCI), buscando la máxima eficiencia cognitiva para entornos educativos y científicos. Utiliza una arquitectura de Microkernel para modularidad y se distingue por su Autenticación por EEG (patrones cerebrales) y una interfaz multimodal y adaptativa que cambia según el estado mental del usuario. Su sistema de archivos, RunaFS, es semántico (organizado por conceptos).
-​macOS es un sistema operativo real de propósito general, optimizado para el diseño y la creatividad. Utiliza un núcleo Híbrido diseñado para maximizar el rendimiento en el hardware de Apple. Su acceso se basa en Touch ID/Contraseñas, y ofrece una interfaz gráfica (GUI) elegante, fija y altamente intuitiva, con una integración vertical total dentro del ecosistema Apple.
+​
 
 ![imagen.6](https://setapp.com/cdn-cgi/image/quality=75,format=auto/https://cdn.setapp.com/blog/images/macos-big-sur.webp)
 el xq lo compare con linux 
