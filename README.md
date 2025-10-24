@@ -7,13 +7,15 @@ Justificación: El núcleo de RunaOS es de tipo microkernel, lo que significa qu
 
 #Gestión de Procesos
 Creación de procesos: RunaOS permite crear procesos clasificados como “neuroactivos”, que responden a estímulos cognitivos.
-![imagen.2](https://www.interactsolutions.com/wp-content/uploads/2020/03/bpm3.png)
 
 #Planificación: Utiliza el algoritmo Multilevel Feedback Queue (MLQ), que adapta la prioridad de los procesos según su comportamiento y necesidades.
 
 #Eliminación de procesos: Se pueden eliminar procesos activos para liberar recursos.
 
 #Ejemplo: Se crean procesos como “AprendizajeInteractivo” y “SimulacionCognitiva”, que luego se ejecutan según la planificación MLQ.
+
+
+![imagen.2](https://www.interactsolutions.com/wp-content/uploads/2020/03/bpm3.png)
 
 # Gestión de Memoria
 Segmentación cognitiva: La memoria se asigna según el tipo de tarea (visual, auditiva, motora, etc.).
