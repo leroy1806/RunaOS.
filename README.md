@@ -1,73 +1,83 @@
 # RunaOS.
+  
+
+#RunaOS: Sistema Operativo del Futuro
+Propósito: RunaOS está diseñado para entornos educativos y científicos que integran interfaces cerebro-computadora (BCI). Su objetivo es facilitar una interacción directa entre el pensamiento humano y las máquinas, promoviendo accesibilidad, adaptabilidad y eficiencia cognitiva.
+
+# Tipo de Núcleo: Microkernel
+Justificación: El núcleo de RunaOS es de tipo microkernel, lo que significa que solo las funciones esenciales (como la gestión de memoria, procesos y comunicación) se ejecutan en el núcleo. Los servicios como drivers, sistema de archivos y seguridad se ejecutan en espacio de usuario. Esto mejora la modularidad, la seguridad y la tolerancia a fallos, permitiendo actualizaciones sin reiniciar el sistema completo.
+
+#Gestión de Procesos
+Creación de procesos: RunaOS permite crear procesos clasificados como “neuroactivos”, que responden a estímulos cognitivos.
+
+#Planificación: Utiliza el algoritmo Multilevel Feedback Queue (MLQ), que adapta la prioridad de los procesos según su comportamiento y necesidades.
+
+#Eliminación de procesos: Se pueden eliminar procesos activos para liberar recursos.
+
+#Ejemplo: Se crean procesos como “AprendizajeInteractivo” y “SimulacionCognitiva”, que luego se ejecutan según la planificación MLQ.
+
+# Gestión de Memoria
+Segmentación cognitiva: La memoria se asigna según el tipo de tarea (visual, auditiva, motora, etc.).
+
+#Paginación inversa: Optimiza el acceso predictivo a la memoria según patrones mentales.
+
+#Asignación: Se asigna memoria a cada proceso con un tamaño específico, por ejemplo, 128MB al segmento visual de un proceso educativo.
+
+#Seguridad
+Autenticación por EEG: Los usuarios se autentican mediante patrones cerebrales únicos (hash EEG).
+
+#Verificación de acceso: El sistema compara el EEG del usuario con el registrado para conceder o denegar acceso.
+
+#Ejemplo: El usuario “Estudiante01” se autentica con su EEG y accede correctamente al sistema.
+
+ #Interfaz de Usuario
+Modos disponibles: CLI (línea de comandos), GUI (interfaz gráfica), comandos por voz, gestos y BCI.
+
+#Adaptabilidad: La interfaz cambia según el nivel de atención, fatiga o emoción del usuario.
+
+#Inclusividad: Pensada para usuarios con discapacidades motoras o del habla.
+
+#Ejemplo: Se activa la interfaz en modo “voz + BCI” para una experiencia multimodal.
+
+#Sistema de Archivos: RunaFS
+Estructura semántica: Los archivos se organizan por conceptos y asociaciones mentales, no por carpetas tradicionales.
+
+#Permisos adaptativos: El acceso a archivos depende del estado mental del usuario (ej. concentración).
+
+#Jerarquía dinámica: La estructura del sistema de archivos se reorganiza según el contexto de uso (educativo, creativo, investigativo).
+
+#Ejemplo: El sistema activa RunaFS y muestra sus características semánticas y adaptativas.
+
+ #Estado del Sistema
+#RunaOS puede mostrar su estado actual, incluyendo:
+
+#Procesos activos.
+
+#Memoria asignada por proceso.
+
+#Usuarios registrados.
+
+#Historial de acciones (logs del sistema).
+
+#Comparación: RunaOS vs Linux
+#Característica	RunaOS (Ficticio)	Linux (Real)
+Propósito	Interacción humano-máquina con BCI en entornos educativos y científicos	Sistema operativo general para servidores, escritorios y móviles
+Tipo de núcleo	Microkernel: modular, seguro, tolerante a fallos	Monolítico: alto rendimiento, menos modular
+Gestión de procesos	Neurothreading + planificación MLQ adaptativa	Multithreading + algoritmos como Round Robin, CFS
+Gestión de memoria	Segmentación cognitiva + paginación inversa	Segmentación + paginación tradicional
+Sistema de archivos	RunaFS: semántico, adaptativo, jerarquía dinámica	ext4, Btrfs, XFS: jerárquicos, basados en bloques
+Seguridad	Autenticación EEG + cifrado NeuroCrypt + control emocional-cognitivo	Contraseñas, certificados, SELinux, cifrado estándar
+Interfaz de usuario	Multimodal: CLI, GUI, voz, gestos, BCI adaptativa	CLI + GUI (Gnome, KDE, etc.)
+Innovación destacada	Interacción mental directa + adaptabilidad emocional	Estabilidad, rendimiento, personalización
+
+
+#el xq lo compare con linux 
+
+#Razones para elegir Linux como punto de comparación
+Es de código abierto Linux permite estudiar su arquitectura, modificarla y adaptarla, lo que lo convierte en una excelente base para aprender cómo funciona un sistema operativo desde dentro.
+
 #reflexion
 #me parecio un buen proyecto , tuve que invertigar un poco mas. lo unico que no sabia si era en codigo en texto o como. pero en codigo es una simulacion ya que para hacer un sistema operativo se necesitan  mas cosas
-#lo compare con linux ya que de codigo abierto, se utiliza mucho eso si , no tanto como windows o mac os. x eso me parecio un poco mas interesante y talvez el poder tener una mejor innovacion que con el resto de sistemas operativos
-    #  Tipo de núcleo: Microkernel
-    # Justificación: modularidad, seguridad, tolerancia a fallos. Servicios como drivers y seguridad se ejecutan fuera del núcleo.
-    print(f"{self.nombre} iniciado con núcleo tipo Microkernel.")
 
-#  Gestión de procesos
-def crear_proceso(self, nombre, tipo="neuroactivo"):
-    proceso = {"nombre": nombre, "estado": "listo", "tipo": tipo}
-    self.procesos.append(proceso)
-    self.logs.append(f"Proceso '{nombre}' creado.")
-    print(f"Proceso '{nombre}' creado en estado 'listo'.")
 
-def eliminar_proceso(self, nombre):
-    self.procesos = [p for p in self.procesos if p["nombre"] != nombre]
-    self.logs.append(f"Proceso '{nombre}' eliminado.")
-    print(f"Proceso '{nombre}' eliminado.")
 
-def planificar_procesos(self):
-    print("Planificación MLQ en curso...")
-    for proceso in self.procesos:
-        proceso["estado"] = "ejecutando"
-        self.logs.append(f"Proceso '{proceso['nombre']}' ejecutado.")
-        print(f"Ejecutando proceso: {proceso['nombre']}")
-
-#  Gestión de memoria
-def asignar_memoria(self, proceso, segmento, tamaño):
-    # Segmentación cognitiva + paginación inversa
-    self.memoria[proceso] = {"segmento": segmento, "tamaño": tamaño}
-    self.logs.append(f"Memoria asignada a '{proceso}': {segmento} ({tamaño}MB)")
-    print(f"Memoria asignada a '{proceso}': {segmento} ({tamaño}MB)")
-
-#  Seguridad
-def autenticar_usuario(self, usuario, eeg_hash):
-    # Autenticación por EEG
-    self.usuarios[usuario] = eeg_hash
-    self.logs.append(f"Usuario '{usuario}' autenticado.")
-    print(f"Usuario '{usuario}' autenticado con EEG.")
-
-def verificar_acceso(self, usuario, eeg_hash):
-    if self.usuarios.get(usuario) == eeg_hash:
-        self.logs.append(f"Acceso concedido a '{usuario}'.")
-        print(f"Acceso concedido a '{usuario}'.")
-    else:
-        self.logs.append(f"Acceso denegado a '{usuario}'.")
-        print(f"Acceso denegado a '{usuario}'.")
-
-# Interfaz de usuario
-def interfaz_usuario(self, modo="BCI"):
-    # Modos disponibles: CLI, GUI, voz, gestos, BCI
-    self.logs.append(f"Interfaz activada en modo: {modo}")
-    print(f"Interfaz activada en modo: {modo}")
-
-# Sistema de archivos: RunaFS
-def sistema_archivos(self):
-    # Estructura semántica, permisos adaptativos, jerarquía dinámica
-    print("Sistema de archivos RunaFS activado.")
-    print(" - Estructura: semántica por conceptos.")
-    print(" - Permisos: adaptativos según estado mental.")
-    print(" - Jerarquía: dinámica según contexto de uso.")
-    self.logs.append("Sistema de archivos RunaFS activado.")
-
-#  Estado del sistema
-def mostrar_estado(self):
-    print("\n Estado actual de RunaOS:")
-    print("Procesos activos:", [p["nombre"] for p in self.procesos])
-    print("Memoria asignada:", self.memoria)
-    print("Usuarios registrados:", list(self.usuarios.keys()))
-    print("Logs del sistema:")
-    for log in self.logs:
-        print(" -", log)
