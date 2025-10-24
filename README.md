@@ -1,6 +1,5 @@
-# RunaOS.
- ![imagen.](https://t7m8e9c8.delivery.rocketcdn.me/wp-content/uploads/2020/12/linux-tux.jpg)
-
+# runaOS
+ ![imagen.](https://googleusercontent.com/generated_image_content/0)
 #RunaOS: Sistema Operativo del Futuro
 Propósito: RunaOS está diseñado para entornos educativos y científicos que integran interfaces cerebro-computadora (BCI). Su objetivo es facilitar una interacción directa entre el pensamiento humano y las máquinas, promoviendo accesibilidad, adaptabilidad y eficiencia cognitiva.
 
@@ -75,6 +74,8 @@ Innovación destacada	Interacción mental directa + adaptabilidad emocional	Esta
 
 #Razones para elegir Linux como punto de comparación
 Es de código abierto Linux permite estudiar su arquitectura, modificarla y adaptarla, lo que lo convierte en una excelente base para aprender cómo funciona un sistema operativo desde dentro.
+
+ ![imagen.](https://t7m8e9c8.delivery.rocketcdn.me/wp-content/uploads/2020/12/linux-tux.jpg)
 
 #reflexion
 #me parecio un buen proyecto , tuve que invertigar un poco mas. lo unico que no sabia si era en codigo en texto o como. pero en codigo es una simulacion ya que para hacer un sistema operativo se necesitan  mas cosas
