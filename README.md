@@ -36,6 +36,8 @@ Ejemplo: El usuario “Estudiante01” se autentica con su EEG y accede correcta
  Interfaz de Usuario
 Modos disponibles: CLI (línea de comandos), GUI (interfaz gráfica), comandos por voz, gestos y BCI.
 
+![imagen.4](  https://www.initiumsoft.com/blog_initium/wp-content/uploads/2024/10/interfaz-de-usuario-scaled.webp)
+
 Adaptabilidad: La interfaz cambia según el nivel de atención, fatiga o emoción del usuario.
 
 Inclusividad: Pensada para usuarios con discapacidades motoras o del habla.
