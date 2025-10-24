@@ -77,6 +77,8 @@ Seguridad	Autenticación EEG + cifrado NeuroCrypt + control emocional-cognitivo	
 Interfaz de usuario	Multimodal: CLI, GUI, voz, gestos, BCI adaptativa	CLI + GUI (Gnome, KDE, etc.)
 Innovación destacada	Interacción mental directa + adaptabilidad emocional	Estabilidad, rendimiento, personalización
 
+![imagen.](https://alexariza.net/wp-content/uploads/2021/10/Foto2.jpg)
+
 ​RunaOS comparacion con windows: Creado para la eficiencia cognitiva e interacción directa con la mente humana a través de Interfaces Cerebro-Computadora (BCI), enfocado en entornos educativos y científicos.
 ​Windows: Diseñado para la productividad y el entretenimiento general del usuario, con amplio soporte de hardware y software.
 ​Arquitectura Clave:
