@@ -1,5 +1,5 @@
 # RunaOS.
-  
+ ![imagen.](https://t7m8e9c8.delivery.rocketcdn.me/wp-content/uploads/2020/12/linux-tux.jpg)
 
 #RunaOS: Sistema Operativo del Futuro
 Propósito: RunaOS está diseñado para entornos educativos y científicos que integran interfaces cerebro-computadora (BCI). Su objetivo es facilitar una interacción directa entre el pensamiento humano y las máquinas, promoviendo accesibilidad, adaptabilidad y eficiencia cognitiva.
