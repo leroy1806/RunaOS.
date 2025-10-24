@@ -1,5 +1,4 @@
-# runaOS
- ![imagen.](https://googleusercontent.com/generated_image_content/0)
+#runaOS
 #RunaOS: Sistema Operativo del Futuro
 Propósito: RunaOS está diseñado para entornos educativos y científicos que integran interfaces cerebro-computadora (BCI). Su objetivo es facilitar una interacción directa entre el pensamiento humano y las máquinas, promoviendo accesibilidad, adaptabilidad y eficiencia cognitiva.
 
@@ -8,6 +7,7 @@ Justificación: El núcleo de RunaOS es de tipo microkernel, lo que significa qu
 
 #Gestión de Procesos
 Creación de procesos: RunaOS permite crear procesos clasificados como “neuroactivos”, que responden a estímulos cognitivos.
+![imagen.2](https://www.interactsolutions.com/wp-content/uploads/2020/03/bpm3.png)
 
 #Planificación: Utiliza el algoritmo Multilevel Feedback Queue (MLQ), que adapta la prioridad de los procesos según su comportamiento y necesidades.
 
