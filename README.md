@@ -75,6 +75,22 @@ Seguridad	Autenticación EEG + cifrado NeuroCrypt + control emocional-cognitivo	
 Interfaz de usuario	Multimodal: CLI, GUI, voz, gestos, BCI adaptativa	CLI + GUI (Gnome, KDE, etc.)
 Innovación destacada	Interacción mental directa + adaptabilidad emocional	Estabilidad, rendimiento, personalización
 
+​RunaOS comparacion con windows: Creado para la eficiencia cognitiva e interacción directa con la mente humana a través de Interfaces Cerebro-Computadora (BCI), enfocado en entornos educativos y científicos.
+​Windows: Diseñado para la productividad y el entretenimiento general del usuario, con amplio soporte de hardware y software.
+​Arquitectura Clave:
+​RunaOS: Utiliza un Microkernel para ofrecer mayor seguridad y modularidad. Su gestión de procesos es adaptativa y responde a estímulos mentales (Neurothreading).
+​Windows: Utiliza un núcleo Híbrido optimizado para un alto rendimiento y compatibilidad.
+​Seguridad y Acceso:
+​RunaOS: Innova con la Autenticación por EEG (patrones cerebrales únicos) y permisos que pueden variar según el estado mental/emocional del usuario.
+​Windows: Se basa en métodos tradicionales como contraseñas y reconocimiento facial (Windows Hello).
+​Interfaz de Usuario:
+​RunaOS: Es Multimodal (CLI, GUI, voz, gestos, BCI) y se adapta dinámicamente al nivel de atención o fatiga del usuario.
+​Windows: Ofrece una Interfaz Gráfica (GUI) familiar y consistente (Fluent Design), optimizada para ratón/teclado.
+
+
+RunaOS comparacion con mac os es un sistema conceptual enfocado en la interacción cerebro-computadora (BCI), buscando la máxima eficiencia cognitiva para entornos educativos y científicos. Utiliza una arquitectura de Microkernel para modularidad y se distingue por su Autenticación por EEG (patrones cerebrales) y una interfaz multimodal y adaptativa que cambia según el estado mental del usuario. Su sistema de archivos, RunaFS, es semántico (organizado por conceptos).
+​macOS es un sistema operativo real de propósito general, optimizado para el diseño y la creatividad. Utiliza un núcleo Híbrido diseñado para maximizar el rendimiento en el hardware de Apple. Su acceso se basa en Touch ID/Contraseñas, y ofrece una interfaz gráfica (GUI) elegante, fija y altamente intuitiva, con una integración vertical total dentro del ecosistema Apple.
+
 
 el xq lo compare con linux 
 
