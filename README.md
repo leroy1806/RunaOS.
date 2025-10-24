@@ -2,6 +2,8 @@ runaOS
 RunaOS: Sistema Operativo del Futuro
 Propósito: RunaOS está diseñado para entornos educativos y científicos que integran interfaces cerebro-computadora (BCI). Su objetivo es facilitar una interacción directa entre el pensamiento humano y las máquinas, promoviendo accesibilidad, adaptabilidad y eficiencia cognitiva.
 
+![imagen.0](https://www.lampadia.com/assets/uploads_images/images/2%2848%29.jpg)
+
  Tipo de Núcleo: Microkernel
 Justificación: El núcleo de RunaOS es de tipo microkernel, lo que significa que solo las funciones esenciales (como la gestión de memoria, procesos y comunicación) se ejecutan en el núcleo. Los servicios como drivers, sistema de archivos y seguridad se ejecutan en espacio de usuario. Esto mejora la modularidad, la seguridad y la tolerancia a fallos, permitiendo actualizaciones sin reiniciar el sistema completo.
 
