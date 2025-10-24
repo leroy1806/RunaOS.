@@ -87,11 +87,13 @@ Innovación destacada	Interacción mental directa + adaptabilidad emocional	Esta
 ​RunaOS: Es Multimodal (CLI, GUI, voz, gestos, BCI) y se adapta dinámicamente al nivel de atención o fatiga del usuario.
 ​Windows: Ofrece una Interfaz Gráfica (GUI) familiar y consistente (Fluent Design), optimizada para ratón/teclado.
 
+![imagen.5](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs36iNZi5MA9i8L05KRUtaWNZDukL-5Fv3a3GOfUsppA&s=10)
+
 
 RunaOS comparacion con mac os es un sistema conceptual enfocado en la interacción cerebro-computadora (BCI), buscando la máxima eficiencia cognitiva para entornos educativos y científicos. Utiliza una arquitectura de Microkernel para modularidad y se distingue por su Autenticación por EEG (patrones cerebrales) y una interfaz multimodal y adaptativa que cambia según el estado mental del usuario. Su sistema de archivos, RunaFS, es semántico (organizado por conceptos).
 ​macOS es un sistema operativo real de propósito general, optimizado para el diseño y la creatividad. Utiliza un núcleo Híbrido diseñado para maximizar el rendimiento en el hardware de Apple. Su acceso se basa en Touch ID/Contraseñas, y ofrece una interfaz gráfica (GUI) elegante, fija y altamente intuitiva, con una integración vertical total dentro del ecosistema Apple.
 
-
+![imagen.6](https://setapp.com/cdn-cgi/image/quality=75,format=auto/https://cdn.setapp.com/blog/images/macos-big-sur.webp)
 el xq lo compare con linux 
 
 Razones para elegir Linux como punto de  de código abierto Linux permite estudiar su arquitectura, modificarla y adaptarla, lo que lo convierte en una excelente base para aprender cómo funciona un sistema operativo desde dentro.
